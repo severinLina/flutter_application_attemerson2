@@ -64,7 +64,6 @@ class MainApp extends StatelessWidget {
                 height: 30,
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
-                  color: Colors.white,
                   borderRadius: BorderRadius.all(Radius.circular(30)),
                 ),
               ),
