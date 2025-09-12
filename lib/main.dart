@@ -44,6 +44,7 @@ class MainApp extends StatelessWidget {
                   borderRadius: BorderRadius.all(Radius.circular(30)),
                 ), // Espaço entre as colunas
               ),
+              SizedBox(height: 10),
               Container(
                 width: double.infinity,
                 child: Text('SIGN IN APPLE'),
@@ -56,6 +57,7 @@ class MainApp extends StatelessWidget {
                   ),
                 ),
               ),
+              SizedBox(height: 10),
               Container(
                 width: double.infinity,
                 child: Text('SIGN IN WHITH PHONE NUMBER'),
