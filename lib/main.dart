@@ -36,15 +36,19 @@ class MainApp extends StatelessWidget {
               ),
               Container(
                 width: double.infinity,
+                child: Text('SIGN IN APPLE'),
                 height: 30,
+                alignment: Alignment.center,
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.all(Radius.circular(30)),
-                ),
+                ), // Espaço entre as colunas
               ),
               Container(
                 width: double.infinity,
+                child: Text('SIGN IN APPLE'),
                 height: 30,
+                alignment: Alignment.center,
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadiusDirectional.all(
@@ -54,7 +58,9 @@ class MainApp extends StatelessWidget {
               ),
               Container(
                 width: double.infinity,
+                child: Text('SIGN IN WHITH PHONE NUMBER'),
                 height: 30,
+                alignment: Alignment.center,
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.all(Radius.circular(30)),
