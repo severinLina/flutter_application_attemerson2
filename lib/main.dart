@@ -40,7 +40,7 @@ class MainApp extends StatelessWidget {
                 height: 30,
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
-                  color: Colors.white,
+                  border: Border.all(color: Colors.white, width: 3),
                   borderRadius: BorderRadius.all(Radius.circular(30)),
                 ), // Espaço entre as colunas
               ),
@@ -51,7 +51,7 @@ class MainApp extends StatelessWidget {
                 height: 30,
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
-                  color: Colors.white,
+                  border: Border.all(color: Colors.white, width: 3),
                   borderRadius: BorderRadiusDirectional.all(
                     Radius.circular(30),
                   ),
@@ -64,6 +64,7 @@ class MainApp extends StatelessWidget {
                 height: 30,
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
+                  border: Border.all(color: Colors.white, width: 3),
                   borderRadius: BorderRadius.all(Radius.circular(30)),
                 ),
               ),
